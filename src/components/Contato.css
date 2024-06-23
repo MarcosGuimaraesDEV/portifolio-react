@@ -1,0 +1,29 @@
+.back-contato{
+    background-color: #000000;
+}
+#contato{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 1.5rem;
+    
+}
+
+#contato ul{
+    list-style: none;
+}
+#contato ul li a{
+    padding: 15px 10px;
+    color: #ffffff;
+
+}
+#contato ul a{
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+.texto-contato{
+    color: #f6f6f6;
+}

@@ -1,0 +1,20 @@
+.back-perfil{
+    padding-bottom: 60px;
+}
+.perfil-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.perfil-container h1{
+    font-size: 4.5rem;
+    line-height: 1.25;
+}
+
+.perfil-container img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}

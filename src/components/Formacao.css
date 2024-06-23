@@ -1,0 +1,17 @@
+.back-formacao{
+    background-color: #141414;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#formacao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.texto-formacao{
+    font-size: 1.5rem;
+    color: #f6f6f6;
+}
