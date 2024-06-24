@@ -17,6 +17,7 @@
     justify-content: center;
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 .header-list li{
     list-style: none;
@@ -34,7 +35,7 @@ img{
     display: block;
 }
 
-@media (max-width:700px) {
+@media (max-width:800px) {
     .header-container{
         justify-content: center;
     }
@@ -42,6 +43,9 @@ img{
 @media (max-width:500px) {
     .header-nome{
         font-size: 1.5rem;
+    }
+    .header-list li a{
+        font-size: 1rem;
     }
     .header-list{
         gap: 10px;
